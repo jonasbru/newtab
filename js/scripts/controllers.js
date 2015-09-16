@@ -48,7 +48,7 @@ define(['angularAMD', 'storage', 'moment-src'], function (angularAMD, storage, m
 	        }
 
 		    if (typeof storageFiles.background === "undefined"  || forceChange || LS.hasDateExpired(currentDate)) {
-		        var url = "img/" + (Math.floor(Math.random() * 63) + 1) + ".jpg";
+		        var url = "img/" + (Math.floor(Math.random() * 78) + 1) + ".jpg";
 		        storageFiles.background = url;
 		        $scope.updateCache();
 		    }
