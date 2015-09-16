@@ -1,6 +1,6 @@
 {
 	"locale" : "en",
-	"name" : "Your Name",
+	"name" : "",
 	"location" : "Paris",
 	"temperatureType" : 0,
 	"dateformat" : "dddd DD.MM.YYYY"
